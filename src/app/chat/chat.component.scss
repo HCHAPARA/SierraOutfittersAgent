@@ -1,0 +1,50 @@
+
+
+   .chat-wrapper {                  
+    max-width: 540px;
+    margin: 0 auto;               
+    height: 100vh; 
+  }
+  
+  /* history box */
+  .chat-history {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 16px;
+    scroll-behavior: smooth;      
+    display: flex;
+    flex-direction: column;       
+    gap: 6px;
+  }
+  
+  /* USER (left) */
+  .user {
+    align-self: flex-start;
+    background: #e3f2fd;
+    color: #0d47a1;
+    padding: 8px 12px;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  /* ASSISTANT (right) */
+  .assistant {
+    align-self: flex-end;
+    background: #e8f5e9;
+    color: #1b5e20;
+    padding: 8px 12px;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  
+  .system {
+    align-self: center;
+    background: #eeeeee;
+    color: #424242;
+    font-style: italic;
+    padding: 4px 8px;
+    border-radius: 6px;
+    max-width: 70%;
+  }
+  
